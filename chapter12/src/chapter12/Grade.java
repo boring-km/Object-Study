@@ -4,7 +4,7 @@ public class Grade {
     private String name;
     private int upper, lower;
 
-    private Grade(String name, int upper, int lower) {
+    public Grade(String name, int upper, int lower) {
         this.name = name;
         this.upper = upper;
         this.lower = lower;
